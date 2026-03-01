@@ -1,2 +1,2 @@
 # MCCA
-Minecraft Client Anticheat
+Minecraft Competitive Anticheat
