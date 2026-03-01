@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mcca",
+  "version": "${version}",
+  "name": "MCCA",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mcca/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.dappls.mcca.client.MccaClient"
+    ],
+    "main": [
+      "net.dappls.mcca.Mcca"
+    ]
+  },
+  "mixins": [
+    "mcca.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
